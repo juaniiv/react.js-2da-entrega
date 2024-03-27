@@ -1,0 +1,51 @@
+.nav-wrapper a{
+font-size: 20px;
+}
+.brand-logo img{
+height: 50px;
+width: 50px;
+
+}
+
+.cart-count {
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 4px;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    color: black;
+    
+  }
+  .card {
+    width: 250px; /* Ancho deseado de la tarjeta */
+    height: 350px; /* Altura fija para todas las tarjetas */
+    margin: 10px; /* Margen entre las tarjetas */
+    padding: 10px; /* Espacio interno dentro de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    overflow: hidden; /* Ocultar el contenido que exceda la altura */
+  }
+  
+  .card .card-image img {
+    width: 100%; /* Ajustar la imagen al ancho de la tarjeta */
+    height: auto; /* Altura automática para la imagen */
+    border-radius: 5px; /* Borde redondeado para la imagen */
+  }
+  
+  .card .card-title {
+    font-size: 1.2rem; /* Tamaño de la fuente del título */
+    font-weight: bold; /* Negrita */
+    margin-top: 10px; /* Margen superior */
+  }
+  
+  .card .card-content p {
+    font-size: 1rem; /* Tamaño de la fuente del contenido */
+    overflow: hidden; /* Ocultar el contenido que exceda la altura */
+  }
+  
+  
